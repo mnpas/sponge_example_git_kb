@@ -2,7 +2,7 @@ class HelloFromGitGroovy extends Action {
     void onConfigure() {
         this.withLabel("Hello from git - Groovy").withDescription("Action defined in the git knowledge base.")
         this.withNoArgs()
-        this.withResult(new StringType().withLabel("Hello")))
+        this.withResult(new StringType().withLabel("Hello"))
     }
 
     String onCall() {
