@@ -1,0 +1,1 @@
+# sponge_example_git_kb
