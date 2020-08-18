@@ -9,3 +9,7 @@ class HelloFromGitGroovy extends Action {
         return "Hello from the Groovy git knowledge base"
     }
 }
+
+void onStartup() {
+    // Required by Groovy.
+}
