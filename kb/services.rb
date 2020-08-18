@@ -8,7 +8,3 @@ class HelloWorldActionRuby < Action
         return "Hello World! Hello %s!" % [name]
     end
 end
-
-def onStartup
-    $sponge.logger.info("{}", $sponge.call("HelloWorldAction", ["Sponge user"]))
-end
