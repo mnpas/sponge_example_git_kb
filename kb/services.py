@@ -1,10 +1,6 @@
 
-def onBeforeLoad():
-    sponge.disable(HelloFromGit)
-
-
 def onAfterLoad():
-    pass
+    sponge.disable(HelloFromGit)
 
 
 class HelloFromGit2(Action):
