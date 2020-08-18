@@ -1,8 +1,8 @@
 
-class OsGetDiskSpaceInfo(Action):
+class HelloFromGit(Action):
     def onConfigure(self):
-        self.withLabel("Get disk space info").withDescription("Returns the disk space info.")
-        self.withNoArgs().withResult(StringType().withFormat("console").withLabel("Disk space info"))
-        self.withFeature("icon", "console")
+        self.withLabel("Hello from git").withDescription("Action defined in the git knowledge base.")
+        self.withNoArgs().withResult(StringType().withLabel("Hello"))
+        self.withFeature("icon", "git")
     def onCall(self):
-        return sponge.process("df", "-h").outputAsString().run().outputString
+        return "Hello from the git knowledge base"
