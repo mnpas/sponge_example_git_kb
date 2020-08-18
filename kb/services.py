@@ -5,4 +5,4 @@ class HelloFromGit(Action):
         self.withNoArgs().withResult(StringType().withLabel("Hello"))
         self.withFeature("icon", "git")
     def onCall(self):
-        return "Hello from the git knowledge base"
+        return "Hello from the git knowledge base 2"
