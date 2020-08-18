@@ -5,7 +5,7 @@ def onAfterLoad():
 
 class HelloFromGit(Action):
     def onConfigure(self):
-        self.withLabel("Hello from git 2").withDescription(
+        self.withLabel("Hello from git").withDescription(
             "Action defined in the git knowledge base.")
         self.withNoArgs().withResult(StringType().withLabel("Hello"))
         self.withFeature("icon", "git")
