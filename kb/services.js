@@ -1,6 +1,6 @@
 var HelloWorldActionJavaScript = Java.extend(Action, {
     onConfigure: function (self) {
-        self.withLabel("Hello world - JavaScript").withDescription("Returns a greeting text.");
+        self.withLabel("Hello world git - JavaScript").withDescription("Returns a greeting text.");
         self.withArg(new StringType("name").withLabel("Your name").withDescription("Type your name."));
         self.withResult(new StringType().withLabel("Greeting").withDescription("The greeting text."));
         self.withFeature("icon", "git");

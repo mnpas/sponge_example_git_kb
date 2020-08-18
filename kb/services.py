@@ -6,7 +6,7 @@ def onAfterLoad():
 class HelloWorldActionPython(Action):
     def onConfigure(self):
         self.withLabel(
-            "Hello world - Python").withDescription("Returns a greeting text.")
+            "Hello world git - Python").withDescription("Returns a greeting text.")
         self.withArg(StringType("name").withLabel(
             "Your name").withDescription("Type your name."))
         self.withResult(StringType().withLabel(
