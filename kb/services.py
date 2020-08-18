@@ -7,9 +7,9 @@ def onAfterLoad():
     pass
 
 
-class HelloFromGit(Action):
+class HelloFromGit2(Action):
     def onConfigure(self):
-        self.withLabel("Hello from git").withDescription(
+        self.withLabel("Hello from git 2").withDescription(
             "Action defined in the git knowledge base.")
         self.withNoArgs().withResult(StringType().withLabel("Hello"))
         self.withFeature("icon", "git")
