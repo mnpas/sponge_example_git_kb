@@ -1,9 +1,9 @@
 
 def onAfterLoad():
-    sponge.disable(HelloFromGit)
+    sponge.disable(HelloFromGit2)
 
 
-class HelloFromGit2(Action):
+class HelloFromGit(Action):
     def onConfigure(self):
         self.withLabel("Hello from git 2").withDescription(
             "Action defined in the git knowledge base.")
@@ -11,4 +11,4 @@ class HelloFromGit2(Action):
         self.withFeature("icon", "git")
 
     def onCall(self):
-        return "Hello from the git knowledge base 2" + sponge.version
+        return "Hello from the git knowledge base 2 " + sponge.version
