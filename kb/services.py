@@ -11,4 +11,4 @@ class HelloFromGit2(Action):
         self.withFeature("icon", "git")
 
     def onCall(self):
-        return "Hello from the git knowledge base " + sponge.version
+        return "Hello from the git knowledge base 2" + sponge.version
