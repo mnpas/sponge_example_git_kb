@@ -3,10 +3,10 @@ def onAfterLoad():
     pass  # sponge.disable(HelloFromGit2)
 
 
-class HelloWorldActionPython(Action):
+class HelloWorldActionPython2(Action):
     def onConfigure(self):
         self.withLabel(
-            "Hello world git - Python").withDescription("Returns a greeting text.")
+            "Hello world git - Python2").withDescription("Returns a greeting text.")
         self.withArg(StringType("name").withLabel(
             "Your name").withDescription("Type your name."))
         self.withResult(StringType().withLabel(
