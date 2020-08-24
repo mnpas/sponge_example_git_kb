@@ -1,8 +1,4 @@
 
-def onAfterLoad():
-    pass  # sponge.disable(HelloFromGit2)
-
-
 class HelloWorldActionPython(Action):
     def onConfigure(self):
         self.withLabel(
