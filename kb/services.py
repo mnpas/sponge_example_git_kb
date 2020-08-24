@@ -2,7 +2,7 @@
 class HelloWorldActionPython(Action):
     def onConfigure(self):
         self.withLabel(
-            "Hello world git - Python").withDescription("Returns a greeting text.")
+            "My Hello world git - Python").withDescription("Returns a greeting text.")
         self.withArg(StringType("name").withLabel(
             "Your name").withDescription("Type your name."))
         self.withResult(StringType().withLabel(
@@ -10,4 +10,4 @@ class HelloWorldActionPython(Action):
         self.withFeature("icon", "git")
 
     def onCall(self, name):
-        return "Hello World! Hello {}!".format(name)
+        return "Hello {}!".format(name)
