@@ -1,4 +1,3 @@
-
 class HelloWorldActionPython(Action):
     def onConfigure(self):
         self.withLabel(
